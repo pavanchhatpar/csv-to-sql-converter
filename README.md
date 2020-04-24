@@ -8,7 +8,13 @@ This script was created as a part of Operating Systems' mini project in my Third
  - Works only with .csv files which confine it to be used only on single sheet Excel Files.
  - It assumes the `filename` as `table name` and `first row cells` are taken as `column names`
  - The output filename is same as the input file but with an extension `sql`
- 
+
+# Download
+```bash
+wget https://raw.githubusercontent.com/pavanchhatpar/csv-to-sql-converter/master/csv-sql.sh
+chmod +x ./csv-sql.sh
+```
+
 # Usage
 ```bash
 $ sh csv-sql.sh <filename>.csv
